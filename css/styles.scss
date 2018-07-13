@@ -135,3 +135,12 @@ h6 {
   color: white;
   transition: color 200ms linear;
 }
+#valuesSection {
+  margin-top: 30px;
+}
+.text-malvern {
+  color: $malvern-brand;
+}
+#valuesSection .card {
+  min-height: 300px;
+}
