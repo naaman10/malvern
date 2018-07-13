@@ -1,6 +1,6 @@
 ---
 title: Welcome to jekyll!
-date: 2016-05-20 21:11:27 Z
+date: 2016-05-20 21:11:27 +00:00
 layout: post
 subtitle: Jekyll is a blog-aware, static site generator in Ruby https://jekyllrb.com
 author: jekyll
