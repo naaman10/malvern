@@ -1,0 +1,110 @@
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  height: 100%; }
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px; } }
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 600px; } }
+.fixed-top {
+  transition: background-color 600ms linear; }
+
+.btn .fa {
+  margin-left: 3px; }
+
+.top-nav-collapse {
+  background-color: #424f95 !important; }
+
+.nav-link {
+  color: #00a8e3; }
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent; }
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: white !important; }
+
+  .navbar-toggler-icon {
+    font-size: 30px;
+    color: #00a8e3;
+    height: auto;
+    width: auto; } }
+.btn-white {
+  color: black !important; }
+
+h6 {
+  line-height: 1.7; }
+
+#brandsOnBoard {
+  background-color: #F3F6F6; }
+
+.brandIamge {
+  text-align: center;
+  padding: 50px; }
+
+.brandIamge img {
+  width: auto;
+  max-height: 35px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 400ms linear; }
+
+.brandIamge img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%); }
+
+#pageHeader {
+  margin-top: 58px;
+  background-image: url("https://images.pexels.com/photos/531602/pexels-photo-531602.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(0, 168, 227, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(0, 168, 227, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(255, 255, 255, 0.7)), to(rgba(0, 168, 227, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.7), rgba(0, 168, 227, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(255, 255, 255, 0.7), rgba(0, 168, 227, 0.7) 100%); }
+
+.contactImg {
+  max-height: 30px; }
+
+.contactSocial {
+  width: 100%;
+  padding-left: 0; }
+
+.contactSocial li {
+  list-style: none;
+  text-align: center;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  color: black;
+  transition: background-color 200ms linear; }
+
+.contactSocial li:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  transition: background-color 200ms linear; }
+
+.contactSocial li a {
+  color: black;
+  transition: color 200ms linear; }
+
+.contactSocial li:hover > a {
+  color: white;
+  transition: color 200ms linear; }
