@@ -144,3 +144,15 @@ h6 {
 #valuesSection .card {
   min-height: 300px;
 }
+#platformNumbers {
+  background-color: $malvern-brand;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#platformNumbers .counter {
+  font-size: 5rem;
+}
+#platformFeatures .fas {
+  font-size: 3rem;
+}
