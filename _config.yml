@@ -8,4 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+email: naamanh10@gmail.com
+description: Malvern Group
+homeTitle: "Reimagining Trips for Tomorrow"
+homeIntro: "The Malvern Group is a leading UK-based travel and technology company, offering award-winning travel services to customers through its primary brands, Super Break and LateRooms.com. Malvern’s mission is to reimagine trips for tomorrow, providing inspirational travel experiences for customers travelling to UK destinations."
+baseurl:
+url:
+markdown: kramdown
+plugins:
+  - jekyll-admin
 permalink: pretty
+
