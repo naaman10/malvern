@@ -7,3 +7,7 @@ $(window).scroll(function(){
       $(".fixed-top").css("background" , "transparent");
 	  }
   });
+  $('.counter').counterUp({
+      delay: 40,
+      time: 2000
+  });
