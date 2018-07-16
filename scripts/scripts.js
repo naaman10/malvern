@@ -9,5 +9,5 @@ $(window).scroll(function(){
   });
   $('.counter').counterUp({
       delay: 40,
-      time: 2000
+      time: 1500
   });
