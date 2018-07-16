@@ -20,4 +20,3 @@ url:
 markdown: kramdown
 plugins:
 - jekyll-admin
-permalink: pretty
