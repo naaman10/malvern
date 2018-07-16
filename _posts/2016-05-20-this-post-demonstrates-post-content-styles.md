@@ -1,6 +1,6 @@
 ---
 title: This post demonstrates post content styles
-date: 2016-05-20 00:00:00 Z
+date: 2016-05-20 00:00:00 +00:00
 layout: post
 author: Bart Simpson
 meta: Springfield

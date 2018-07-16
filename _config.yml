@@ -1,6 +1,6 @@
 ---
-title: Malvern Group
-timezone: GMT
+title: Malvern Test
+timezone: UTC
 collections:
   posts:
     title: Posts
@@ -18,3 +18,5 @@ url:
 markdown: kramdown
 plugins:
   - jekyll-admin
+permalink: pretty
+
